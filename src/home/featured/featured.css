@@ -1,0 +1,17 @@
+.featured .box {
+  border-radius: 6px;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+
+  border: 1px solid gray;
+}
+.featured .box:hover {
+  transition: all 0.5s ease-in;
+  box-shadow: 0 0 20px 3px rgba(36, 13, 217, 1);
+}
+.featured img {
+  width: 65px;
+  height: 65px;
+  margin: auto;
+}
